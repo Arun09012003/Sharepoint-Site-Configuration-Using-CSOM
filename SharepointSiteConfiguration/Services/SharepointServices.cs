@@ -626,8 +626,9 @@ namespace SharepointSiteConfiguration.Services
                                 folderItem.Update();
                                 context.ExecuteQuery();
                             }
+                            Console.WriteLine("Folder created in document library...");
 
-                            
+
 
                             //Create site page
                             Microsoft.SharePoint.Client.List Library = context.Web.Lists.GetByTitle("site pages");
