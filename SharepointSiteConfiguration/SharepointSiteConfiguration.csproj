@@ -16,4 +16,6 @@
     <PackageReference Include="PnP.Framework" Version="1.18.0" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/azure-deviceupdate-update-manifest-5.json" /></VisualStudio></ProjectExtensions>
+
 </Project>
