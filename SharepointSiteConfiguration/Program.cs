@@ -6,7 +6,7 @@ using SharepointSiteConfiguration.Services;
 class Program {
     static async Task Main(string[] args) {
         var config = new ConfigurationBuilder()
-        .AddJsonFile("C:\\Projects\\PnP Powershell\\Project\\CSOM\\SharepointSiteConfiguration\\SharepointSiteConfiguration\\appSettings.json")
+        .AddJsonFile("C:\\Projects\\PnP Powershell\\Project\\CSOM\\SharepointSiteConfiguration\\SharepointSiteConfiguration\\appSettings.Development.json")
         .Build();
         var settings = config.Get<AppSettings>();
         var service = new SharepointServices();
