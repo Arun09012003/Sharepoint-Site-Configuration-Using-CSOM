@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharepointSiteConfiguration", "SharepointSiteConfiguration\SharepointSiteConfiguration.csproj", "{8CB0B8FF-358C-49C6-A674-B9B18EEE5F72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharepoint-Site-Configuration-Using-CSOM", "SharepointSiteConfiguration\Sharepoint-Site-Configuration-Using-CSOM.csproj", "{8CB0B8FF-358C-49C6-A674-B9B18EEE5F72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
