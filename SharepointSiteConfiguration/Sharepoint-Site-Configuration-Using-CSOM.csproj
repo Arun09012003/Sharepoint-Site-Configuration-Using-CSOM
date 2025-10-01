@@ -12,10 +12,10 @@
     <PackageReference Include="Azure.Identity" Version="1.14.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.5" />
     <PackageReference Include="Microsoft.SharePoint.Client" Version="14.0.4762.1000" />
-    <PackageReference Include="Microsoft.SharePointOnline.CSOM" Version="16.1.26121.12000" />
+    <PackageReference Include="Microsoft.SharePointOnline.CSOM" Version="16.1.26510.12000" />
     <PackageReference Include="PnP.Framework" Version="1.18.0" />
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="https://raw.githubusercontent.com/SchemaStore/schemastore/master/src/schemas/json/azure-deviceupdate-update-manifest-5.json" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
 
 </Project>
