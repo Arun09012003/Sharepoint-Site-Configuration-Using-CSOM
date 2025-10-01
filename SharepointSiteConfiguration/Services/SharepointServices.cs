@@ -18,8 +18,8 @@ namespace SharepointSiteConfiguration.Services
         {
             try
             {
-                var sppkgFilePath = "C:/Users/EaseTeqLT08/Downloads/service-desk-2.sppkg";
-                var siteUrl = "https://dgneaseteq.sharepoint.com/sites/ProjectBeta2";
+                var sppkgFilePath = "";
+                var siteUrl = "";
                 using (var siteContext = new ClientContext(siteUrl))
                 {
                     siteContext.ExecutingWebRequest += (sender, e) =>
